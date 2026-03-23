@@ -23,7 +23,7 @@ int main() {
         }
         std::cout << result << std::endl;
     } catch (const std::exception& e) {
-        std::cout << "Error :" << e.what() << std::endl;
+        std::cout << "Error: " << e.what() << std::endl;
     }
 
     return 0;
