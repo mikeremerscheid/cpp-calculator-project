@@ -27,7 +27,6 @@ int main() {
     double x, y;
     char op;
 
-    while x != null {
     std::cout << "Enter two numbers" << std:: endl;
     std::cin >> x >> op >> y;
 
@@ -46,6 +45,6 @@ int main() {
     } catch (const std::exception& e) {
         std::cout << "Error :" << e.what() << std::endl;
     }
-    }
+
     return 0;
 }
